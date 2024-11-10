@@ -1,26 +1,26 @@
 // Military greeting exercise
 
-let name = 'Rugen';
-let rank = 'Captain';
-let age = 19;
+const name = 'Rugen';
+const rank = 'Captain';
+const age = 19;
 
 if (age < 18) {
     console.log('You are too young for the military!');
 }
 
-if (name === 'Rugen' && rank === 'Count') {
+else if (name === 'Rugen' && rank === 'Count') {
     console.log('My name is Inigo Montoya, you killed my father, prepare to die.')
 }
 
-if (rank = 'Captain') {
+else if (rank = 'Captain') {
     console.log(`Aye Aye Captain ${name}`)
 }
 
-if (rank= 'Private' && age > 40) {
+else if (rank= 'Private' && age > 40) {
     console.log(`What have you been doing with your life, ${name}?`)
 }
 
-else console.log(`Hello, ${rank}' '{${name}, I cannot wait to celebrate your ${age +1}th birthday next year!`)
+else console.log(`Hello, ${rank} {${name}, I cannot wait to celebrate your ${age +1}th birthday next year!`)
 
 
 
